@@ -21,4 +21,13 @@ pipeline{
             }
         }
     }
+	post{
+		success{
+			echo 'You can go home'
+		}
+		failure{
+			echo 'Sit and work on'
+		}
+	}
 }
+
